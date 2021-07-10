@@ -1,0 +1,40 @@
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.logo_text {
+    text-align: right;
+    overflow-y: hidden;
+    padding-top: 15px;
+}
+.logo_text h2{
+font-weight:bold;
+color:#fff;
+padding:10px 0px;
+}
+.logo_text img{
+padding-bottom:305px;
+}
+.back_images{
+	background:url(../images/background.jpg);
+	background-size:cover;
+}
+.overlay{
+	background-color: rgba(0, 0, 0, .4);
+}
+
+
+
+@media only screen and (max-width: 300px) {
+.logo_text {
+    
+    text-align: left;
+    overflow-y: hidden;
+    padding-top: 15px;
+}
+.logo_text h2{
+
+font-size:15px;
+}
+  }
+
